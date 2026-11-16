@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deba Oni — Business Builder, Growth Marketer & Web Craftsman</title>
+  <meta name="description" content="Personal website of Deba Oni: Marketer, Founder of Deutsch Mark Academy (₦35M+ in sales) and Deutsch Mark Ventures (investment & growth company). I grow businesses and build fast software.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-ink">
+
+  <!-- Main Navigation Header (Clean & Minimalist) -->
+  <header class="site-header" id="topHeader">
+    <div class="header-container">
+      <a href="#hero" class="brand-logo" aria-label="Deba Oni Home">
+        <span class="brand-name">Deba Oni</span>
+        <span class="brand-status-dot" title="Available for advisory & growth"></span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
+        <a href="#about" class="nav-item">How I Think</a>
+        <a href="#ventures" class="nav-item">Companies</a>
+        <a href="#projects" class="nav-item">Things I Built</a>
+        <a href="#calculator" class="nav-item">Profit Calculator</a>
+        <a href="#skills" class="nav-item">What I Do</a>
+        <a href="#contact" class="nav-item">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Switch between Dark Ink and Warm Paper mode">
+          <span class="toggle-icon" id="themeIcon">☀️</span>
+          <span class="toggle-label" id="themeLabel">Light</span>
+        </button>
+        <a href="#contact" class="action-btn cta-talk">Let's Talk</a>
+        <button class="mobile-menu-trigger" id="mobileMenuBtn" aria-expanded="false" aria-label="Toggle navigation menu">
+          <span class="bar top"></span>
+          <span class="bar mid"></span>
+          <span class="bar bot"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION (MINIMALIST & SPACIOUS) -->
+    <section class="hero-block" id="hero">
+      <div class="hero-wrapper">
+
+        <!-- Big Headline in Grade 6 English -->
+        <h1 class="hero-headline">
+          I grow businesses.<br>
+          I build software.<br>
+          I teach people how to sell.
+        </h1>
+
+        <!-- Subtitle in Grade 6 English -->
+        <p class="hero-lede">
+          Hi, I am <strong>Deba Oni</strong>. Over the last few years, I have helped make over <strong>₦35,000,000 in sales</strong> for our businesses, trained over <strong>10,000 students</strong> with our free resources and <strong>1,300+ paid students</strong> across our programs, and built custom software tools that make companies run faster.
+        </p>
+
+        <!-- Clean Action Row -->
+        <div class="hero-actions-row">
+          <a href="#calculator" class="primary-punch-btn">
+            <span>Try The Profit Calculator</span>
+            <span class="btn-arrow">→</span>
+          </a>
+          <a href="#ventures" class="secondary-punch-btn">
+            <span>See My Companies</span>
+          </a>
+          <button class="quick-copy-hero-btn" data-copy="osadebamwenoni@gmail.com" title="Copy email address to clipboard">
+            <span class="copy-label">Email:</span>
+            <span class="copy-text">osadebamwenoni@gmail.com</span>
+            <span class="copy-badge">Copy</span>
+          </button>
+        </div>
+
+        <!-- Minimalist Metric Ledger -->
+        <div class="stat-ledger-grid">
+          <article class="stat-box" data-category="marketing ventures">
+            <span class="stat-tag">Total Sales</span>
+            <div class="stat-giant" data-target="35" data-prefix="₦" data-suffix="M+">₦35M+</div>
+            <p class="stat-desc">Generated at Deutsch Mark Academy through ads and sales systems.</p>
+          </article>
+
+          <article class="stat-box" data-category="marketing">
+            <span class="stat-tag">Students Trained</span>
+            <div class="stat-giant" data-target="10000" data-prefix="" data-suffix="+">10,000+</div>
+            <p class="stat-desc">10,000+ free learners &amp; 1,300+ paid students coached across our programs.</p>
+          </article>
+
+          <article class="stat-box" data-category="ventures">
+            <span class="stat-tag">Companies</span>
+            <div class="stat-giant">2</div>
+            <p class="stat-desc">Enterprises founded: Deutsch Mark Academy &amp; Deutsch Mark Ventures.</p>
+          </article>
+
+          <article class="stat-box" data-category="code">
+            <span class="stat-tag">Custom Software</span>
+            <div class="stat-giant">Fast</div>
+            <p class="stat-desc">Clean, instant web tools with zero bloat and zero loading lag.</p>
+          </article>
+        </div>
+
+        <!-- Clean Filter Switchboard (Understated & Practical) -->
+        <div class="filter-switchboard" aria-label="Filter portfolio by interest">
+          <span class="filter-caption">Filter view:</span>
+          <div class="filter-pill-group" role="tablist">
+            <button class="filter-pill active" data-filter="all" role="tab" aria-selected="true">
+              All
+            </button>
+            <button class="filter-pill" data-filter="marketing" role="tab" aria-selected="false">
+              Marketing &amp; Sales
+            </button>
+            <button class="filter-pill" data-filter="ventures" role="tab" aria-selected="false">
+              Companies
+            </button>
+            <button class="filter-pill" data-filter="code" role="tab" aria-selected="false">
+              Software &amp; Tools
+            </button>
+          </div>
+          <span class="filter-status-hint" id="filterStatusHint">Showing all work</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: TWO SIDES OF MY BRAIN -->
+    <section class="content-section" id="about">
+      <div class="section-container">
+        <div class="section-header-row">
+          <span class="section-kicker">[ HOW I THINK ]</span>
+          <h2 class="section-title">Two sides of my brain that help you win.</h2>
+          <p class="section-lead">
+            Most marketers do not understand how software is built. Most computer programmers do not understand how to sell things to human beings. I do both every day.
+          </p>
+        </div>
+
+        <div class="duality-split-grid">
+          <!-- Side 1: Marketing / Business -->
+          <div class="side-card side-growth" data-category="marketing ventures">
+            <div class="card-badge-line">
+              <span class="card-pill pill-gold">SIDE A // BUSINESS &amp; SALES</span>
+              <span class="card-index">01</span>
+            </div>
+            <h3 class="side-title">The Person Who Brings In Paying Customers</h3>
+            <p class="side-intro">
+              Having a great product is useless if nobody knows it exists. I turn online visitors into happy, paying customers.
+            </p>
+            <ul class="simple-bullet-list">
+              <li>
+                <span class="bullet-check">✓</span>
+                <div>
+                  <strong>Ads that pay for themselves:</strong> If we spend ₦1,000 on ads, we aim to get back ₦3,000, ₦4,000, or more in real sales.
+                </div>
+              </li>
+              <li>
+                <span class="bullet-check">✓</span>
+                <div>
+                  <strong>Simple sales pages:</strong> Pages that tell the plain truth, answer questions fast, and make it easy for people to buy.
+                </div>
+              </li>
+              <li>
+                <span class="bullet-check">✓</span>
+                <div>
+                  <strong>Coaching that works:</strong> I teach regular people how to run businesses without confusing buzzwords or boring lectures.
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Side 2: Tech / Code -->
+          <div class="side-card side-tech" data-category="code">
+            <div class="card-badge-line">
+              <span class="card-pill pill-cyan">SIDE B // SOFTWARE &amp; CODE</span>
+              <span class="card-index">02</span>
+            </div>
+            <h3 class="side-title">The Person Who Actually Builds The Software</h3>
+            <p class="side-intro">
+              I have a Computer Science background. When a business needs an interactive calculator, a checkout flow, or a custom tool, I build it myself.
+            </p>
+            <ul class="simple-bullet-list">
+              <li>
+                <span class="bullet-check">⚡</span>
+                <div>
+                  <strong>Speed is king:</strong> Nobody likes waiting for a slow website. My work loads instantly on any phone or laptop.
+                </div>
+              </li>
+              <li>
+                <span class="bullet-check">⚡</span>
+                <div>
+                  <strong>No broken parts:</strong> We write clean code that does not crash when thousands of people visit at the same time.
+                </div>
+              </li>
+              <li>
+                <span class="bullet-check">⚡</span>
+                <div>
+                  <strong>Built for the goal:</strong> We do not add fancy animations that get in the way. Everything has a purpose: making sales.
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: THE COMPANIES -->
+    <section class="content-section section-contrast" id="ventures">
+      <div class="section-container">
+        <div class="section-header-row">
+          <span class="section-kicker">[ MY REAL WORK ]</span>
+          <h2 class="section-title">The two companies I started.</h2>
+          <p class="section-lead">
+            I don't just give advice. I run real businesses with real customers, real payroll, and real bank deposits.
+          </p>
+        </div>
+
+        <div class="company-cards-stack">
+          <!-- Company 1: Deutsch Mark Academy -->
+          <article class="company-dossier-card" data-category="ventures marketing">
+            <div class="company-ribbon">
+              <span class="company-number">COMPANY 01</span>
+              <span class="company-badge-live">Digital Skills Academy</span>
+            </div>
+
+            <div class="company-main-body">
+              <div class="company-headline-area">
+                <h3 class="company-name">Deutsch Mark Academy</h3>
+                <p class="company-role-tag">Founder &amp; Chief Growth Officer</p>
+              </div>
+
+              <div class="company-big-callout">
+                <span class="callout-value">₦35,000,000+</span>
+                <span class="callout-text">Total sales generated to date across our marketing campaigns and digital training programs.</span>
+              </div>
+
+              <p class="company-story">
+                Deutsch Mark Academy is our premier digital skills academy. We teach practical, high-income skills across three core areas: <strong>Sales &amp; Marketing</strong>, <strong>Forex Trading</strong>, and <strong>Artificial Intelligence (AI)</strong>. We have trained over <strong>10,000 students</strong> using our free resources and guided more than <strong>1,300 paid students</strong> through our intensive programs.
+              </p>
+
+              <div class="company-key-wins">
+                <div class="win-item">
+                  <span class="win-bullet">01</span>
+                  <p><strong>10,000+ Students Trained:</strong> Reached over 10,000 learners with free education and 1,300+ paid graduates.</p>
+                </div>
+                <div class="win-item">
+                  <span class="win-bullet">02</span>
+                  <p><strong>3 Specialized Tracks:</strong> Hands-on training in Sales &amp; Marketing, Forex Trading, and modern AI tools.</p>
+                </div>
+                <div class="win-item">
+                  <span class="win-bullet">03</span>
+                  <p><strong>₦35M+ in Real Sales:</strong> Built proven ad funnels that consistently generate revenue month after month.</p>
+                </div>
+              </div>
+
+              <div class="company-action-links">
+                <a href="https://deutschmarkacademy.com" target="_blank" rel="noopener noreferrer" class="company-link-btn">
+                  <span>Visit Academy Website</span>
+                  <span class="btn-arrow">↗</span>
+                </a>
+                <a href="https://learn.deutschmarkacademy.com" target="_blank" rel="noopener noreferrer" class="company-link-btn btn-subtle">
+                  <span>Student LMS Portal</span>
+                  <span class="btn-arrow">↗</span>
+                </a>
+              </div>
+
+              <div class="company-tag-cloud">
+                <span class="d-tag">Digital Skills Academy</span>
+                <span class="d-tag">Sales &amp; Marketing</span>
+                <span class="d-tag">Forex Trading</span>
+                <span class="d-tag">AI Applications</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Company 2: Deutsch Mark Ventures -->
+          <article class="company-dossier-card" data-category="ventures marketing">
+            <div class="company-ribbon">
+              <span class="company-number">COMPANY 02</span>
+              <span class="company-badge-venture">Investment &amp; Growth</span>
+            </div>
+
+            <div class="company-main-body">
+              <div class="company-headline-area">
+                <h3 class="company-name">Deutsch Mark Ventures</h3>
+                <p class="company-role-tag">Founder &amp; Managing Partner</p>
+              </div>
+
+              <div class="company-big-callout">
+                <span class="callout-value">15% Profit</span>
+                <span class="callout-text">Clients provide capital and earn 15% profit on their funds per marketing campaign we deploy.</span>
+              </div>
+
+              <p class="company-story">
+                Deutsch Mark Ventures is our investment and venture growth company. Beyond launching and incubating digital assets, clients partner with us by providing capital and earn a <strong>15% return on their capital per campaign</strong> we deploy. We leverage our battle-tested marketing, advertising, and conversion funnels to ensure capital is deployed into profitable, predictable campaigns.
+              </p>
+
+              <div class="company-key-wins">
+                <div class="win-item">
+                  <span class="win-bullet">01</span>
+                  <p><strong>15% Return per Campaign:</strong> Capital partners earn reliable 15% profit for every marketing campaign deployed.</p>
+                </div>
+                <div class="win-item">
+                  <span class="win-bullet">02</span>
+                  <p><strong>Tested Marketing Engines:</strong> We only deploy capital into campaigns with proven conversion data and low risk.</p>
+                </div>
+                <div class="win-item">
+                  <span class="win-bullet">03</span>
+                  <p><strong>Custom Software &amp; Ops:</strong> We engineer fast web apps, dashboards, and automated tools to manage campaigns.</p>
+                </div>
+              </div>
+
+              <div class="company-tag-cloud">
+                <span class="d-tag">Investment Company</span>
+                <span class="d-tag">15% Campaign Return</span>
+                <span class="d-tag">Capital Deployment</span>
+                <span class="d-tag">Venture Scaling</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: LIVE SOFTWARE & CREATIONS -->
+    <section class="content-section" id="projects" data-category="code">
+      <div class="section-container">
+        <div class="section-header-row">
+          <span class="section-kicker">[ THINGS I CREATED ]</span>
+          <h2 class="section-title">Live web applications &amp; platforms.</h2>
+          <p class="section-lead">
+            Real software running live on the internet. Click any card below to open the application in a new tab.
+          </p>
+        </div>
+
+        <div class="projects-featured-grid">
+          
+          <!-- Project 1: Checklist Fx -->
+          <article class="project-dossier-card" data-category="code">
+            <div class="project-card-top">
+              <span class="project-tag">Forex Trading Web App</span>
+              <span class="project-status-dot" title="Live on Vercel"></span>
+            </div>
+            <h3 class="project-title">Checklist Fx</h3>
+            <p class="project-desc">
+              A disciplined, step-by-step interactive checklist tool built for Forex traders. Helps traders confirm key entry setups, calculate position risk, and enforce trading rules before taking a trade.
+            </p>
+            <div class="project-footer">
+              <div class="project-tech-tags">
+                <span>Forex Trading</span>
+                <span>Rule Verification</span>
+                <span>Fast Web Tool</span>
+              </div>
+              <a href="https://checklistfx-pink.vercel.app" target="_blank" rel="noopener noreferrer" class="project-launch-btn">
+                <span>Launch Checklist Fx</span>
+                <span class="btn-arrow">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: Rukky's Picks -->
+          <article class="project-dossier-card" data-category="code">
+            <div class="project-card-top">
+              <span class="project-tag">Student Food &amp; Budget App</span>
+              <span class="project-status-dot" title="Live on Vercel"></span>
+            </div>
+            <h3 class="project-title">Rukky's Picks</h3>
+            <p class="project-desc">
+              A smart food decision app built for private university students who cannot cook in their dorms. It helps students figure out what meal to buy based on their daily budget, so they stop eating the exact same food every single day.
+            </p>
+            <div class="project-footer">
+              <div class="project-tech-tags">
+                <span>Budget Meal Picker</span>
+                <span>Meal Variety</span>
+                <span>Student Utility</span>
+              </div>
+              <a href="https://rukkys-picks.vercel.app" target="_blank" rel="noopener noreferrer" class="project-launch-btn">
+                <span>Launch Rukky's Picks</span>
+                <span class="btn-arrow">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3: Deutsch Mark Academy LMS -->
+          <article class="project-dossier-card" data-category="code ventures">
+            <div class="project-card-top">
+              <span class="project-tag">Learning Management System</span>
+              <span class="project-status-dot" title="Live in Production"></span>
+            </div>
+            <h3 class="project-title">Academy Student LMS</h3>
+            <p class="project-desc">
+              The custom learning portal powering Deutsch Mark Academy. Serves over 10,000 free resource students and 1,300+ paid students with video courses, materials, and student progress tracking.
+            </p>
+            <div class="project-footer">
+              <div class="project-tech-tags">
+                <span>LMS Portal</span>
+                <span>10,000+ Students</span>
+                <span>Course Modules</span>
+              </div>
+              <a href="https://learn.deutschmarkacademy.com" target="_blank" rel="noopener noreferrer" class="project-launch-btn">
+                <span>Open Student LMS</span>
+                <span class="btn-arrow">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4: Deutsch Mark Academy Website -->
+          <article class="project-dossier-card" data-category="ventures marketing">
+            <div class="project-card-top">
+              <span class="project-tag">Flagship Marketing Engine</span>
+              <span class="project-status-dot" title="Live in Production"></span>
+            </div>
+            <h3 class="project-title">Deutsch Mark Academy Website</h3>
+            <p class="project-desc">
+              The official front-facing website and marketing engine that has generated over ₦35,000,000 in sales and enrolls students across Sales &amp; Marketing, Forex Trading, and AI.
+            </p>
+            <div class="project-footer">
+              <div class="project-tech-tags">
+                <span>₦35M+ Sales Engine</span>
+                <span>Digital Skills</span>
+                <span>Main Website</span>
+              </div>
+              <a href="https://deutschmarkacademy.com" target="_blank" rel="noopener noreferrer" class="project-launch-btn">
+                <span>Visit Main Website</span>
+                <span class="btn-arrow">↗</span>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: THE LIVE PROFIT CALCULATOR -->
+    <section class="content-section" id="calculator" data-category="code marketing">
+      <div class="section-container">
+        
+        <div class="calculator-box-wrapper">
+          <!-- Header of the tool -->
+          <div class="calculator-header-bar">
+            <div class="tool-id-group">
+              <span class="tool-chip">LIVE WEB TOOL</span>
+              <span class="tool-name">ad-profit-calculator.exe</span>
+            </div>
+            <div class="tool-status">
+              <span class="status-indicator"></span>
+              <span>100% Real Math • Live Updates</span>
+            </div>
+          </div>
+
+          <div class="calculator-interior">
+            <div class="calc-intro-text">
+              <h2 class="calc-heading">The Simple Ad Profit Calculator</h2>
+              <p class="calc-sub">
+                Want to know if your marketing will make money or lose money? Move the sliders below to see what happens in real life.
+              </p>
+            </div>
+
+            <!-- Quick Preset Buttons -->
+            <div class="calc-presets-row">
+              <span class="preset-label">Quick Presets:</span>
+              <button class="preset-btn" data-preset="starter">🟢 Starter (₦150,000 Budget)</button>
+              <button class="preset-btn active" data-preset="standard">🟡 Growing (₦500,000 Budget)</button>
+              <button class="preset-btn" data-preset="scale">🟣 Big Scale (₦2,500,000 Budget)</button>
+              <button class="calc-reset-btn" id="resetCalcBtn" title="Reset all sliders to standard values">↺ Reset</button>
+            </div>
+
+            <div class="calc-main-grid">
+              <!-- Controls Column -->
+              <div class="calc-controls-col">
+                
+                <div class="calc-input-block">
+                  <div class="input-label-row">
+                    <label for="adSpend">1. Monthly Ad Budget</label>
+                    <span class="input-display" id="adSpendVal">₦500,000</span>
+                  </div>
+                  <input type="range" id="adSpend" min="50000" max="10000000" step="50000" value="500000">
+                  <span class="input-helper">How much money you spend on Facebook, Google, or TikTok ads in Naira.</span>
+                </div>
+
+                <div class="calc-input-block">
+                  <div class="input-label-row">
+                    <label for="cpc">2. Cost Per Lead</label>
+                    <span class="input-display" id="cpcVal">₦150</span>
+                  </div>
+                  <input type="range" id="cpc" min="20" max="2500" step="10" value="150">
+                  <span class="input-helper">What you pay in Naira to get one inquiry or lead.</span>
+                </div>
+
+                <div class="calc-input-block">
+                  <div class="input-label-row">
+                    <label for="conversionRate">3. Buying Rate (%)</label>
+                    <span class="input-display" id="conversionRateVal">3.5%</span>
+                  </div>
+                  <input type="range" id="conversionRate" min="0.5" max="15.0" step="0.1" value="3.5">
+                  <span class="input-helper">Out of 100 leads, how many people actually pull out a card and buy.</span>
+                </div>
+
+                <div class="calc-input-block">
+                  <div class="input-label-row">
+                    <label for="aov">4. Price of Your Product</label>
+                    <span class="input-display" id="aovVal">₦25,000</span>
+                  </div>
+                  <input type="range" id="aov" min="2000" max="500000" step="1000" value="25000">
+                  <span class="input-helper">How much one customer pays you in Naira on average.</span>
+                </div>
+
+              </div>
+
+              <!-- Output Column -->
+              <div class="calc-results-col">
+                
+                <!-- Main outcome banner -->
+                <div class="outcome-card" id="outcomeCard">
+                  <span class="outcome-eyebrow">ESTIMATED TOTAL SALES</span>
+                  <div class="outcome-big-num" id="outRevenue">₦2,900,000</div>
+                  <div class="outcome-pill-row">
+                    <span class="outcome-tag" id="outRoas">ROAS: 5.80x</span>
+                    <span class="verdict-tag" id="outVerdict">🟢 Highly Profitable</span>
+                  </div>
+                </div>
+
+                <!-- 4 Simple Numbers -->
+                <div class="outcome-mini-grid">
+                  <div class="mini-stat-card">
+                    <span class="m-label">Leads Generated</span>
+                    <span class="m-value" id="outClicks">3,333</span>
+                  </div>
+
+                  <div class="mini-stat-card">
+                    <span class="m-label">Paying Customers</span>
+                    <span class="m-value" id="outConversions">116</span>
+                  </div>
+
+                  <div class="mini-stat-card">
+                    <span class="m-label">Cost to Get 1 Customer</span>
+                    <span class="m-value" id="outCac">₦4,310</span>
+                  </div>
+
+                  <div class="mini-stat-card card-profit" id="profitMiniCard">
+                    <span class="m-label">Net Profit (Money Left Over)</span>
+                    <span class="m-value" id="outNetProfit">₦2,400,000</span>
+                  </div>
+                </div>
+
+                <!-- Toggle Plain English Explanation -->
+                <div class="calc-explainer-box" id="calcExplainer">
+                  <p id="explainerText">
+                    <strong>In plain English:</strong> You spent <strong>₦500,000</strong> on ads. You made <strong>₦2,900,000</strong> in sales. After paying for the ads, you walk away with <strong>₦2,400,000</strong> in your pocket.
+                  </p>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: WHAT I ACTUALLY DO FOR CLIENTS -->
+    <section class="content-section" id="skills">
+      <div class="section-container">
+        <div class="section-header-row">
+          <span class="section-kicker">[ MY SKILLS ]</span>
+          <h2 class="section-title">Four ways I can help you or your team.</h2>
+          <p class="section-lead">
+            No long slide decks. No complicated reports you will never read. Just clear work that produces real results.
+          </p>
+        </div>
+
+        <div class="services-quad-grid">
+          <!-- Skill 01 -->
+          <div class="service-block" data-category="marketing">
+            <div class="service-head">
+              <span class="service-digit">01</span>
+              <span class="service-icon">🎯</span>
+            </div>
+            <h3 class="service-name">Paid Ads That Bring In Sales</h3>
+            <p class="service-text">
+              I build and manage ads on Meta (Facebook &amp; Instagram) and Google. The goal is always simple: make more money from sales than we spend on ads.
+            </p>
+            <div class="service-tags">
+              <span>Google Ads</span>
+              <span>Facebook Ads</span>
+              <span>Sales Copy</span>
+              <span>Testing Offers</span>
+            </div>
+          </div>
+
+          <!-- Skill 02 -->
+          <div class="service-block" data-category="ventures marketing">
+            <div class="service-head">
+              <span class="service-digit">02</span>
+              <span class="service-icon">📈</span>
+            </div>
+            <h3 class="service-name">Fixing Your Business Model</h3>
+            <p class="service-text">
+              If your product is not selling, something is wrong with your offer, your price, or who you are talking to. I find the leak and fix it.
+            </p>
+            <div class="service-tags">
+              <span>Better Pricing</span>
+              <span>Offer Design</span>
+              <span>Higher Profits</span>
+              <span>Growth Roadmaps</span>
+            </div>
+          </div>
+
+          <!-- Skill 03 -->
+          <div class="service-block" data-category="code">
+            <div class="service-head">
+              <span class="service-digit">03</span>
+              <span class="service-icon">⚡</span>
+            </div>
+            <h3 class="service-name">Fast, Custom Web Tools</h3>
+            <p class="service-text">
+              Need a clean sales page, a custom calculator, or an interactive tool for your website? I code it clean so it never slows down or breaks.
+            </p>
+            <div class="service-tags">
+              <span>Fast Landing Pages</span>
+              <span>Interactive Calculators</span>
+              <span>Clean Code</span>
+              <span>Zero Bloat</span>
+            </div>
+          </div>
+
+          <!-- Skill 04 -->
+          <div class="service-block" data-category="marketing ventures">
+            <div class="service-head">
+              <span class="service-digit">04</span>
+              <span class="service-icon">🎓</span>
+            </div>
+            <h3 class="service-name">1-on-1 &amp; Team Coaching</h3>
+            <p class="service-text">
+              I teach business owners and ambitious marketers the exact steps to launch campaigns and make steady sales every week.
+            </p>
+            <div class="service-tags">
+              <span>Founder Coaching</span>
+              <span>Team Workshops</span>
+              <span>Clear Playbooks</span>
+              <span>Real Q&amp;A</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: MY 3 SIMPLE RULES -->
+    <section class="content-section section-contrast" id="rules">
+      <div class="section-container">
+        
+        <div class="rules-editorial-block">
+          <div class="rules-left-column">
+            <span class="section-kicker">[ MY PHILOSOPHY ]</span>
+            <h2 class="rules-main-title">“If it doesn't make money or work fast, cut it.”</h2>
+            <p class="rules-quote-credit">
+              — <strong>Deba Oni</strong>, on why simple businesses beat complicated ones every single time.
+            </p>
+          </div>
+
+          <div class="rules-right-list">
+            
+            <div class="rule-card">
+              <div class="rule-number-badge">RULE 1</div>
+              <div class="rule-body">
+                <h4>Numbers do not care about feelings.</h4>
+                <p>We do not guess what works. If an ad makes money, we keep running it. If a page does not sell, we change it immediately.</p>
+              </div>
+            </div>
+
+            <div class="rule-card">
+              <div class="rule-number-badge">RULE 2</div>
+              <div class="rule-body">
+                <h4>Simple things beat fancy things.</h4>
+                <p>When you make things too complicated, they break. Simple offers, simple web pages, and simple messages win every time.</p>
+              </div>
+            </div>
+
+            <div class="rule-card">
+              <div class="rule-number-badge">RULE 3</div>
+              <div class="rule-body">
+                <h4>Doing the work beats talking about it.</h4>
+                <p>Everyone has big ideas. The winner is the person who wakes up, tests the campaigns, writes the code, and gets it done.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: CONTACT / SAY HELLO -->
+    <section class="content-section" id="contact">
+      <div class="section-container">
+        
+        <div class="contact-dossier-card">
+          <div class="contact-card-top">
+            <span class="section-kicker">[ GET IN TOUCH ]</span>
+            <h2 class="contact-title">Let’s talk about growing your business.</h2>
+            <p class="contact-subtitle">
+              Whether you want to scale up your sales, need advice on your business, or want to build a custom web tool, send me a message below.
+            </p>
+          </div>
+
+          <div class="contact-two-col">
+            <!-- Left: Direct contacts -->
+            <div class="direct-channels-col">
+              <h3 class="channels-heading">Direct Details</h3>
+
+              <!-- Email Card with copy -->
+              <div class="channel-ticket">
+                <div class="ticket-icon">✉️</div>
+                <div class="ticket-info">
+                  <span class="ticket-label">Direct Email</span>
+                  <a href="mailto:osadebamwenoni@gmail.com" class="ticket-val" id="emailContactLink">osadebamwenoni@gmail.com</a>
+                </div>
+                <button class="ticket-copy-btn" data-copy="osadebamwenoni@gmail.com" aria-label="Copy email address to clipboard">
+                  Copy
+                </button>
+              </div>
+
+              <div class="channel-ticket">
+                <div class="ticket-icon">🏢</div>
+                <div class="ticket-info">
+                  <span class="ticket-label">Companies</span>
+                  <span class="ticket-text">Deutsch Mark Academy &amp; Deutsch Mark Ventures</span>
+                </div>
+              </div>
+
+              <div class="channel-ticket">
+                <div class="ticket-icon">🟢</div>
+                <div class="ticket-info">
+                  <span class="ticket-label">Current Status</span>
+                  <span class="ticket-text">Taking select 1-on-1 advisory &amp; consulting clients</span>
+                </div>
+              </div>
+
+              <!-- Social Links -->
+              <div class="social-tags-row">
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-box">
+                  <span>LinkedIn</span>
+                  <span class="box-arrow">↗</span>
+                </a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-box">
+                  <span>Twitter / X</span>
+                  <span class="box-arrow">↗</span>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-box">
+                  <span>GitHub</span>
+                  <span class="box-arrow">↗</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Right: Interactive Form -->
+            <div class="contact-form-col">
+              <form class="simple-talk-form" id="contactForm" novalidate>
+                
+                <div class="form-field">
+                  <label for="userName">Your Name</label>
+                  <input type="text" id="userName" name="name" placeholder="What is your name?" required>
+                </div>
+
+                <div class="form-field">
+                  <label for="userEmail">Your Email Address</label>
+                  <input type="email" id="userEmail" name="email" placeholder="name@company.com" required>
+                </div>
+
+                <div class="form-field">
+                  <label for="inquiryType">What do you want to talk about?</label>
+                  <select id="inquiryType" name="type">
+                    <option value="growth">Help me get more sales (Marketing)</option>
+                    <option value="coaching">1-on-1 or Team Coaching</option>
+                    <option value="advisory">Advisory for my company</option>
+                    <option value="web-tool">Build a custom web tool or calculator</option>
+                    <option value="hello">Just saying hello</option>
+                  </select>
+                </div>
+
+                <div class="form-field">
+                  <label for="userMessage">Tell me a little about your project</label>
+                  <textarea id="userMessage" name="message" rows="4" placeholder="What are you working on, and how can I help?" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-action-btn" id="formSubmitBtn">
+                  <span>Send Message Directly</span>
+                  <span class="btn-arrow">→</span>
+                </button>
+
+                <!-- Feedback area -->
+                <div class="form-result-box" id="formFeedback" style="display: none;" role="alert"></div>
+
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <span class="f-badge">DO</span>
+        <div>
+          <strong class="f-name">Deba Oni</strong>
+          <p class="f-sub">Business Builder • Marketer • Software Craftsman</p>
+        </div>
+      </div>
+
+      <div class="footer-copy">
+        <p>&copy; <span id="currentYear"></span> Deba Oni. All rights reserved.</p>
+        <p class="footer-motto">Built with speed, clarity, and zero fluff.</p>
+      </div>
+
+      <div class="footer-nav">
+        <a href="#hero" class="back-top-btn" id="backToTopBtn">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
