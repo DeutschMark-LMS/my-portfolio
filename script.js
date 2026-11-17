@@ -491,23 +491,31 @@ function initContactForm() {
       submitBtn.disabled = true;
     }
 
+    // WhatsApp prefilled message from portfolio website
+    const whatsappText =
+      `Hello Deba, I am reaching out from your portfolio website.\n\n` +
+      `*Name:* ${name}\n` +
+      `*Email:* ${email}\n` +
+      `*Inquiry:* ${typeText}\n\n` +
+      `*Message:*\n${message}`;
+
+    const whatsappUrl = `https://wa.me/2347051363930?text=${encodeURIComponent(whatsappText)}`;
+
     showResult(
       'success',
-      `Thank you, ${name}! Your message about "${typeText}" is received. Deba typically replies within 24 hours.`
+      `Thank you, ${name}! Opening WhatsApp to chat with Deba directly...`
     );
 
-    // Optional mailto trigger fallback
-    const mailtoSubject = encodeURIComponent(`Inquiry from ${name}: ${typeText}`);
-    const mailtoBody = encodeURIComponent(`Hi Deba,\n\n${message}\n\nFrom: ${name} (${email})`);
-    const mailtoLink = `mailto:osadebamwenoni@gmail.com?subject=${mailtoSubject}&body=${mailtoBody}`;
+    // Provide one-click fallback link in the feedback box
+    const fallbackLink = document.createElement('div');
+    fallbackLink.style.marginTop = '10px';
+    fallbackLink.innerHTML = `<a href="${whatsappUrl}" target="_blank" rel="noopener noreferrer" style="text-decoration: underline; font-weight: 700;">Click here if WhatsApp didn't open automatically →</a>`;
+    feedback.appendChild(fallbackLink);
 
+    // Open WhatsApp in a new tab
     setTimeout(() => {
-      // Create a subtle secondary link in feedback for instant sending
-      const mailtoAnchor = document.createElement('div');
-      mailtoAnchor.style.marginTop = '8px';
-      mailtoAnchor.innerHTML = `<a href="${mailtoLink}" style="text-decoration: underline; font-weight: 700;">Click here to also send directly via your email app →</a>`;
-      feedback.appendChild(mailtoAnchor);
-    }, 200);
+      window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+    }, 350);
 
     form.reset();
 
